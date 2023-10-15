@@ -1,3 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Nunito&display=swap');
+
 body {
+    margin: 0px 0px 0px 0px;
+    font-family: "Nunito";
+}
+
+#site-container {
     background-color: peachpuff;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 15% 1fr;
+}
+
+#sidebar {
+    background-color: rgb(62, 31, 8);
+    position: fixed;
+    width: 15%;
+    height: 100%;
+    color: peachpuff;
+}
+
+#sidebar-header {
+    text-align: center;
+}
+
+#sidebar-break {
+    width: 100%;
+    color: peachpuff;
+    border-bottom: 2px orange dashed;
+}
+
+#link-list {
+    margin-top: 20%;
+    margin-bottom: 20%;
+    height: 20%;
+}
+
+.sidebar-link {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: peachpuff;
+}
+
+a:visited {
+    color: peachpuff;
+}
+
+a:hover {
+    color: orange;
+}
+
+#content-container {
+    width: 100%;
+    height: 100%;
 }
